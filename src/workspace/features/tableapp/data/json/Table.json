@@ -1,0 +1,49 @@
+{
+	"tablename": {
+		"columns": [ { "column1" }, { "column2" } ],
+		"rows": [ { "row1" }, { "row2" } ],
+		// options- data sent with have one, like a mode selector
+		"selectable": "none / single / multi"
+	}
+}
+
+example
+
+{
+	"tablename": {
+		"columns": [ 
+			{
+				"name": "column1",
+				"dataType": "text / button / numberic / boolean",
+				"buttonText": "I'm a button",
+				"buttonUrl": "/mybutton",
+				"formatString": "$0.00",
+				"headerText": "My Column",
+				"isKey": true,
+				"display": false	
+			},
+			{
+				"name": "column2",
+				"dataType": "text"/"button"/"number" (options),
+				"buttonText": "I'm a button",
+				"buttonUrl": "/mybutton",
+				"formatString": "$0.00",
+				"headerText": "My Column",
+				"isKey": true,
+				"display": false	
+			}
+		],
+		"rows": [
+			{
+				"index": "491-8623-814-979234-87",
+				"key": [ { "colname": value }, { "colname": value } ],
+				"dataFields": [ {datefield1}, {datefield2} ]
+			}
+		],
+		"datafields": [
+			{
+				"colname": "column1",
+				"value": "text / binary / numberic / boolean",
+			}
+		]
+	}

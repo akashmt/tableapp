@@ -1,0 +1,157 @@
+{
+	"tablename": {
+		"columns": [ { "column1" }, { "column2" } ],
+		"rows": [ { "row1" }, { "row2" } ],
+		// options- data sent with have one, like a mode selector
+		"selectable": "none / single / multi"
+	}
+}
+
+example
+
+{
+"tablename": {
+	"columns": [ 
+		{
+			"name": "column1",
+			"dataType": "text / numberic / boolean / button",
+			"buttonText": "I'm a button",
+			"buttonUrl": "/mybutton",
+			"formatString": "$0.00",
+			"headerText": "My Column",
+			"isKey": true,
+			"display": false	
+		},
+		{
+			"name": "column2",
+			"dataType": "text / numberic / boolean / button",
+			"buttonText": "I'm a button",
+			"buttonUrl": "/mybutton",
+			"formatString": "$0.00",
+			"headerText": "My Column",
+			"isKey": true,
+			"display": false	
+		}
+	],
+	"rows": [
+		{
+			"index": "491-8623-814-979234-87",
+			"key": [ { "colname": value }, { "colname": value } ],
+			"dataFields": [ {datefield1}, {datefield2} ]
+		}
+	],
+	"datafields": [
+		{
+			"colname": "column1",
+			"value": "text / binary / numberic / boolean",
+		}
+	]
+}
+
+
+
+
+{
+	"tablename": {
+		"fixedHeader": true,
+		"showFooter": false,
+		"selectRow": true,
+		"columns": [ 
+			{
+				"name": "name",
+				"dataType": "text",
+				"buttonText": "",
+				"buttonUrl": "",
+				"formatString": "",
+				"headerText": "My Text Column",
+				"isKey": true,
+				"display": true,
+				"isSearchable": true,
+				"isSortable": false,
+				"isSelectDropDown": false
+			}, 
+			{
+				"name": "country",
+				"dataType": "text",
+				"buttonText": "",
+				"buttonUrl": "",
+				"formatString": "",
+				"headerText": "My Text Country Column",
+				"isKey": true,
+				"display": true,
+				"isSearchable": false,
+				"isSortable": false,
+				"isSelectDropDown": true
+			},
+			{
+				"name": "Price",
+				"dataType": "numberic",
+				"buttonText": "",
+				"buttonUrl": "",
+				"formatString": "$0.00",
+				"headerText": "My Numberic Price Column",
+				"isKey": true,
+				"display": true,
+				"isSearchable": false,
+				"isSortable": true,
+				"isSelectDropDown": false
+			},
+			{
+				"name": "Age",
+				"dataType": "numberic",
+				"buttonText": "",
+				"buttonUrl": "",
+				"formatString": "",
+				"headerText": "My Numberic Age Column",
+				"isKey": true,
+				"display": true,
+				"isSearchable": true,
+				"isSortable": true,
+				"isSelectDropDown": false
+			},
+			{
+				"name": "Decimal",
+				"dataType": "numberic",
+				"buttonText": "",
+				"buttonUrl": "",
+				"formatString": "0.0",
+				"headerText": "My Numberic Decimal Column",
+				"isKey": true,
+				"display": true,
+				"isSearchable": false,
+				"isSortable": true,
+				"isSelectDropDown": false	
+			},
+			{
+				"name": "Percentage",
+				"dataType": "numberic",
+				"buttonText": "",
+				"buttonUrl": "",
+				"formatString": "0%",
+				"headerText": "My Numberic Percentage Column",
+				"isKey": true,
+				"display": true,
+				"isSearchable": false,
+				"isSortable": true,
+				"isSelectDropDown": false	
+			}
+		],
+		"rows": [
+			{
+				"index": "491-8623-814-979234-87",
+				"key": [ { "colname": value }, { "colname": value } ],
+				"dataFields": [ {datefield1}, {datefield2} ]
+			}
+		],
+		"datafields": [
+			{
+				"colname": "column1",
+				"value": "text / binary / numberic / boolean",
+			}
+		]
+	}
+
+
+
+
+
